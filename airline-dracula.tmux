@@ -9,7 +9,6 @@ main() {
   # purple='colour99'
   dark_purple='colour63'
   tmux set-option -g status 'on'
-  tmux set-option -g status-utf8 'on'
   tmux set-option -g status-left-length '100'
   tmux set-option -g status-right-length '100'
   tmux set-option -g status-bg "${dark_gray}"
