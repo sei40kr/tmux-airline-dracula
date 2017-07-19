@@ -18,9 +18,9 @@ main() {
   tmux set-option -g message-fg "${white}"
   tmux set-option -g message-command-bg "${gray}"
   tmux set-option -g message-command-fg "${white}"
-  tmux set-option -g status-left "#[fg=${black},bg=${light_purple},bold] #S #[fg=${light_purple},bg=${dark_gray}]"
+  tmux set-option -g status-left "#[fg=${white},bg=${dark_gray},bold] #S "
   tmux set-option -g status-right \
-    "#[fg=${light_purple},bg=${dark_gray}]#[fg=${black},bg=${light_purple}]  %Y-%m-%d %H:%M "
+    "#[fg=${light_purple},bg=${dark_gray}]#[fg=${black},bg=${light_purple}] %Y-%m-%d %H:%M "
   tmux set-window-option -g window-status-separator ''
   tmux set-window-option -g window-status-format "#[fg=${white},bg=${dark_gray}] #I #W "
   tmux set-window-option -g window-status-current-format \
