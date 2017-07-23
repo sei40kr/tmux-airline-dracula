@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 main() {
   black='colour232'
@@ -33,4 +33,4 @@ main() {
 
 main
 
-# vim: set filetype=sh
+# vim: set filetype=bash
