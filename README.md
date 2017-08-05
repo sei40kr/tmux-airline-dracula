@@ -2,7 +2,7 @@
 
 A tmux theme for Dracula color scheme.
 
-![Screenshot](https://sei40kr.github.io/tmux-airline-dracula/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/sei40kr/tmux-airline-dracula/master/screenshot.png)
 
 ## Installation
 
